@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbearia Hebreus | Pinhais/PR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+<a href="#" class="nav-logo">
+  <img src="img_hebreus/LOGO COLOR 1.png" alt="Logo Barbearia Hebreus" class="logo-img">
+</a>
+  
+  <ul class="nav-links">
+    <li id="navServicos">
+      <a href="#servicos" id="servicosToggle">≡ Menu <span class="nav-arrow"></span></a>
+      <div class="nav-dropdown" id="servicosDropdown">
+        <a href="#servicos">Serviços</a>
+        <a href="#servicos">Hebreus VIP</a>
+        <a href="#servicos">Nossa Unidade</a>
+        <a href="#servicos">Cultura Hebreus</a>
+
+      </div>
+    </li>
+    
+    <!-- Botão Agendar movido para o lado de Serviços -->
+    <li><a href="https://api.whatsapp.com/send?phone=5541990000000&text=Ola%2C%20quero%20agendar%20um%20horário%20na%20Barbearia%20Hebreus!" target="_blank" class="nav-cta">Assine o Clube</a></li>
+    <li><a href="https://api.whatsapp.com/send?phone=5541990000000&text=Ola%2C%20quero%20agendar%20um%20horário%20na%20Barbearia%20Hebreus!" target="_blank" class="nav-cta">Agendar Visita</a></li>
+    <!--<li><a href="#clube">Assine o Clube</a></li>-->
+    <!--<li><a href="#sobre">Sobre</a></li>-->
+  </ul>
+  
+  <!-- O botão hamburger do mobile continua aqui -->
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <!-- Item "Início" removido daqui também -->
+  <a href="#servicos" class="mobile-link">Corte Masculino</a>
+  <a href="#servicos" class="mobile-link">Barba &amp; Navalha</a>
+  <a href="#servicos" class="mobile-link">Sobrancelha</a>
+  <a href="#servicos" class="mobile-link">Limpeza de Pele</a>
+  <a href="#clube" class="mobile-link">Clube VIP</a>
+  <a href="#sobre" class="mobile-link">Sobre</a>
+  <a href="https://cashbarber.com.br/Hebreusvip" target="_blank" class="nav-cta">Agendar</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">A 1ª Barbearia por Assinatura em Pinhais</p>
+    <h1 class="hero-title">
+      Você Sempre<br>
+      <em>Impecável.</em>
+    </h1>
+    <p class="hero-sub">Cortes de cabelo e barba de extrema qualidade. Uma experiência pensada para o homem que se cuida de verdade.</p>
+    <div class="hero-btns">
+      <!--<a href="https://cashbarber.com.br/Hebreusvip" target="_blank" class="btn-primary">Agendar Horário</a>-->
+      <!--<a href="#clube" class="btn-outline">Conheça o Clube VIP</a>-->
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Rolar</span>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<div class="numbers-strip">
+  <div class="number-item reveal">
+    <div class="number-val">+400</div>
+    <div class="number-label">Membros Ativos</div>
+  </div>
+  <div class="number-item reveal" style="transition-delay:0.1s">
+    <div class="number-val">5★</div>
+    <div class="number-label">Avaliação Google</div>
+  </div>
+  <div class="number-item reveal" style="transition-delay:0.2s">
+    <div class="number-val">+6</div>
+    <div class="number-label">Anos no Mercado</div>
+  </div>
+  <div class="number-item reveal" style="transition-delay:0.3s">
+    <div class="number-val">100%</div>
+    <div class="number-label">Clientes Satisfeitos</div>
+  </div>
+</div>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <img src="img_hebreus/andrea-donato-MNu0n-3BIKs-unsplash.jpg" alt="Interior da Barbearia Hebreus">
+        <div class="about-badge">
+          <strong>#1</strong>
+          <span>em<br>Pinhais</span>
+        </div>
+      </div>
+      <div class="about-text reveal" style="transition-delay:0.15s">
+        <div>
+          <span class="eyebrow">Quem Somos</span>
+          <h2 class="section-title">Nascemos de um <em>sonho</em> grandioso</h2>
+          <p class="section-body">Somos a Barbearia Hebreus, a primeira barbearia por assinatura em Pinhais/PR. Nossa missão é simples e clara: manter você <strong style="color:var(--white)">sempre impecável</strong>, com cortes de cabelo e barba de extrema qualidade.</p>
+        </div>
+        <div class="about-detail">
+          <div class="about-detail-icon">✦</div>
+          <p><strong>Mais de 400 membros</strong> confiam na Barbearia Hebreus para se manterem impecáveis todo mês. Nossa comunidade cresce a cada dia.</p>
+        </div>
+        <div class="about-detail">
+          <div class="about-detail-icon">✦</div>
+          <p><strong>Atendimento 5 estrelas</strong> com profissionais experientes, ambiente premium e agendamento facilitado pelo site.</p>
+        </div>
+        <div class="about-detail">
+          <div class="about-detail-icon">✦</div>
+          <p><strong>Segunda a sábado</strong>, das 09h às 20h. Estamos prontos para receber você no melhor espaço de cuidado masculino de Pinhais.</p>
+        </div>
+        <a href="https://cashbarber.com.br/Hebreusvip" target="_blank" class="btn-primary" style="align-self:flex-start">Agendar uma Visita</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="section-inner">
+    <div class="services-header">
+      <div class="reveal">
+        <span class="eyebrow">O que oferecemos</span>
+        <h2 class="section-title">Corte, barba e<br><em>experiência</em> de alto nível</h2>
+      </div>
+      <a href="https://cashbarber.com.br/Hebreusvip" target="_blank" class="btn-outline reveal" style="white-space:nowrap;flex-shrink:0">Ver Todos os Serviços</a>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+                <img src="img_hebreus/Corte premium.jpg" alt="Corte Premium">
+        <div class="service-card-overlay">
+          <span class="service-card-num">Serviço</span>
+          <h3 class="service-card-title">Corte Masculino Premium</h3>
+          <p class="service-card-desc">Cortes modernos ou clássicos, executados com precisão por barbeiros experientes.</p>
+          <!--<span class="service-card-price">A partir de R$ 45</span>-->
+        </div>
+      </div>
+      <div class="service-card reveal" style="transition-delay:0.1s">
+        <img src="img_hebreus/Barba premium.jpg" alt="Barba & Navalha">
+        <div class="service-card-overlay">
+          <span class="service-card-num">Serviço</span>
+          <h3 class="service-card-title">Barba & Navalha</h3>
+          <p class="service-card-desc">Ritual completo de barba com toalha quente, navalha e produtos premium.</p>
+          <!--<span class="service-card-price">A partir de R$ 35</span>-->
+        </div>
+      </div>
+      <div class="service-card reveal" style="transition-delay:0.2s">
+        <img src="img_hebreus/Sobrancelha.jpg" alt="Corte + Barba">
+        <div class="service-card-overlay">
+          <span class="service-card-num">Serviço</span>
+          <h3 class="service-card-title">Sobrancelha (Navalha)</h3>
+          <p class="service-card-desc">Pequeno detalhe, grande impacto. Remoção de excessos com navalha ou cera, garantindo um olhar limpo e alinhado.</p>
+          <!--<span class="service-card-price">A partir de R$ 70</span>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE BANNER -->
+<div class="quote-banner">
+  <p class="quote-text">Sua imagem fala antes de você. Chegue como um homem de referência.</p>
+  <span class="quote-author">— Barbearia Hebreus, Pinhais/PR</span>
+</div>
+
+<!-- CLUBE -->
+<section id="clube">
+  <div class="clube-inner">
+    <div class="clube-text reveal">
+      <div>
+        <span class="eyebrow">Assinatura Mensal</span>
+        <h2 class="section-title">Seja membro do <em>Hebreus VIP</em></h2>
+        <p class="section-body">Corte o cabelo quantas vezes quiser, todo mês, com prioridade no agendamento e preço fixo. Sem fidelidade, sem burocracia — você continua por escolha.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <div class="about-detail">
+          <div class="about-detail-icon">✦</div>
+          <p><strong>Agendamento facilitado</strong> pelo site ou WhatsApp. Sem fila, sem espera.</p>
+        </div>
+        <div class="about-detail">
+          <div class="about-detail-icon">✦</div>
+          <p><strong>Sem taxa de adesão</strong> e sem contrato mínimo de fidelidade.</p>
+        </div>
+        <div class="about-detail">
+          <div class="about-detail-icon">✦</div>
+          <p><strong>Produtos premium</strong> utilizados em todos os atendimentos, incluídos no plano.</p>
+        </div>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=5541990000000&text=Ola%2C%20quero%20saber%20mais%20sobre%20o%20Hebreus%20VIP!" target="_blank" class="btn-primary" style="align-self:flex-start">Quero Ser Membro</a>
+    </div>
+    <div class="plans-grid reveal" style="transition-delay:0.2s">
+      <div class="plan-card featured">
+        <div class="plan-badge">Mais Popular</div>
+        <div class="plan-name">Hebreus VIP — Ilimitado</div>
+        <div class="plan-price">R$ 74,90 <span>/ mês</span></div>
+        <p class="plan-desc">Corte ilimitado todo mês, sem restrições. Ideal para quem preza pelo visual sempre em dia.</p>
+        <ul class="plan-features">
+          <li>Cortes ilimitados no mês</li>
+          <li>Agendamento com prioridade</li>
+          <li>Produtos premium incluídos</li>
+          <li>Sem taxa de adesão</li>
+          <li>Cancele quando quiser</li>
+        </ul>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Plano Básico</div>
+        <div class="plan-price">R$ 49,90 <span>/ mês</span></div>
+        <p class="plan-desc">2 cortes por mês com toda a qualidade e atenção da Barbearia Hebreus.</p>
+        <ul class="plan-features">
+          <li>2 cortes por mês</li>
+          <li>Agendamento online</li>
+          <li>Sem fidelidade</li>
+        </ul>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Plano Barba</div>
+        <div class="plan-price">R$ 59,90 <span>/ mês</span></div>
+        <p class="plan-desc">Barba e acabamento ilimitados para você manter o visual polido o mês todo.</p>
+        <ul class="plan-features">
+          <li>Barba ilimitada no mês</li>
+          <li>Agendamento prioritário</li>
+          <li>Sem taxa de entrada</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos">
+  <div class="section-inner">
+    <div class="reveal" style="text-align:center;margin-bottom:16px">
+      <span class="eyebrow" style="display:block;text-align:center">O que dizem nossos clientes</span>
+      <h2 class="section-title" style="text-align:center">Quem é Hebreus entende<br>o que é ser <em>impecável</em></h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+        <p class="testimonial-text">Já sou cliente há mais de 2 anos. A qualidade do corte é impecável, os barbeiros são super atenciosos e o ambiente é muito agradável. Não troco por nada!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">MR</div>
+          <div>
+            <div class="author-name">Marcos Rodrigues</div>
+            <div class="author-since">Membro há 2 anos</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal" style="transition-delay:0.1s">
+        <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+        <p class="testimonial-text">O clube de assinatura mudou minha vida! Sempre estou com o cabelo em dia e sem preocupação com o valor. O agendamento é fácil e rápido. Super recomendo!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">PF</div>
+          <div>
+            <div class="author-name">Pedro Ferreira</div>
+            <div class="author-since">Membro VIP</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal" style="transition-delay:0.2s">
+        <div class="stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+        <p class="testimonial-text">Atendimento 5 estrelas em todos os detalhes. Desde a recepção até o corte finalizado, tudo com muito cuidado. Melhor barbearia de Pinhais, sem dúvida.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">RS</div>
+          <div>
+            <div class="author-name">Rafael Santos</div>
+            <div class="author-since">Cliente fiel</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-inner">
+    <div class="faq-grid">
+      <div>
+        <span class="eyebrow">Perguntas Frequentes</span>
+        <h2 class="section-title" style="margin-bottom:40px">Ficou com <em>dúvidas?</em></h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-q">Como funciona a assinatura Hebreus VIP? <span class="faq-icon">+</span></div>
+            <div class="faq-a">O Hebreus VIP é o plano de assinatura mensal da Barbearia Hebreus. Com o plano ilimitado, você pode cortar o cabelo quantas vezes quiser no mês, com agendamento prioritário pelo site ou WhatsApp.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Precisa pagar taxa de adesão ou fidelidade? <span class="faq-icon">+</span></div>
+            <div class="faq-a">Não! Nenhuma taxa de adesão, nenhum contrato de fidelidade. Você entra e sai quando quiser, sem burocracia. Acreditamos que você deve continuar conosco por escolha, não por obrigação.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Como faço para agendar meu horário? <span class="faq-icon">+</span></div>
+            <div class="faq-a">Você pode agendar pelo nosso sistema online (cashbarber.com.br/Hebreusvip) ou pelo WhatsApp. O agendamento é simples, rápido e disponível a qualquer hora do dia.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Quais são os horários de funcionamento? <span class="faq-icon">+</span></div>
+            <div class="faq-a">Atendemos de segunda a sábado, das 09h às 20h. Estamos localizados em Pinhais/PR, prontos para receber você e garantir que saia impecável!</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Posso experimentar antes de assinar? <span class="faq-icon">+</span></div>
+            <div class="faq-a">Claro! Você pode vir como visitante e experimentar nossos serviços avulsos antes de decidir se quer se tornar membro. Temos certeza que você vai querer voltar!</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <img src="img_hebreus/Cadeira_barbearia.jpg" alt="Barbearia Hebreus" class="faq-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCALIZAÇÃO-->
+
+<section id="localizacao">
+  <div class="section-inner">
+    <div class="location-grid">
+      
+      <div class="location-content-column reveal">
+        <div class="location-header">
+          <span class="eyebrow">Onde Estamos</span>
+          <h2 class="section-title">Venha nos <em>visitar</em></h2>
+        </div>
+
+        <div class="location-map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11516.484964646696!2d-49.19948439126488!3d-25.437996593441908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce54e99f1b407%3A0x63351d4576395b0c!2sR.%20Rio%20Piraquara%2C%2039%20-%20Weiss%C3%B3polis%2C%20Pinhais%20-%20PR%2C%2083322-030!5e0!3m2!1sen!2sbr!4v1713567890123!5m2!1sen!2sbr" 
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <div class="location-details-stack">
+          
+          <div class="location-detail">
+            <div class="location-icon">
+              <img src="img_hebreus/icons8-mapa-64.png" alt="Endereço">
+            </div>
+            <div class="location-detail-text">
+              <p>Endereço</p>
+              <p>Rua Rio Piraquara, N° 39<br>Weissópolis — Pinhais/PR</p>
+            </div>
+          </div>
+
+          <div class="location-detail">
+            <div class="location-icon">
+              <img src="img_hebreus/icons8-relógio-80.png" alt="Horários">
+            </div>
+            <div class="location-detail-text">
+              <p>Horários</p>
+              <p>Segunda a Sábado<br>09h às 20h</p>
+            </div>
+          </div>
+
+          <div class="location-detail">
+            <div class="location-icon">
+              <img src="img_hebreus/icons8-telefone-50.png" alt="Contato">
+            </div>
+            <div class="location-detail-text">
+              <p>Contato</p>
+              <p>(41) 99000-0000<br>WhatsApp disponível</p>
+            </div>
+          </div>
+        </div>
+      </div> <div class="location-photo-column reveal">
+        <div class="location-photo-container">
+          <img src="img_hebreus/Barb_Hebreus_Unidade.jpg" alt="Interior da Barbearia Hebreus" class="location-photo">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<footer>
+  <div class="footer-grid">
+    <div>
+      <img src="img_hebreus/LOGO P & B 1.png" alt="Logo Barbearia Hebreus" class="footer-logo">
+      
+      <p class="footer-tagline">A primeira barbearia por assinatura em Pinhais/PR. Sua imagem, nossa missão — sempre impecável.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/barbearia_Hebreus/" target="_blank" class="social-link">IG</a>
+        <a href="https://www.facebook.com/Barbeariahebreusoficial" target="_blank" class="social-link">FB</a>
+        <a href="https://api.whatsapp.com/send?phone=5541990000000" target="_blank" class="social-link">WA</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Institucional</div>
+      <ul class="footer-links">
+        <li><a href="#sobre">Quem Somos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#clube">Clube VIP</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Serviços</div>
+      <ul class="footer-links">
+        <li><a href="#servicos">Corte Masculino</a></li>
+        <li><a href="#servicos">Barba & Navalha</a></li>
+        <li><a href="#servicos">Combo Corte + Barba</a></li>
+        <li><a href="#clube">Assinatura Mensal</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contato</div>
+      <ul class="footer-links">
+        <li><a href="https://cashbarber.com.br/Hebreusvip" target="_blank">Agendar Online</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5541990000000" target="_blank">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/barbearia_Hebreus/" target="_blank">Instagram</a></li>
+        <li><a href="#localizacao">Como Chegar</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2026 Barbearia Hebreus — Todos os direitos reservados. Pinhais/PR.</p>
+    <p class="footer-copy">Desenvolvido com muito ☕ por GKS Dev.</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://api.whatsapp.com/send?phone=5541990000000&text=Ola%2C%20quero%20agendar%20um%20horário%20na%20Barbearia%20Hebreus!" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
